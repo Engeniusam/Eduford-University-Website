@@ -628,4 +628,8 @@ div.com h3{
   div.com{
     justify-content: space-between;
   }
+  #form2{
+    width:90%;
+    margin:auto;
+  }
 }
