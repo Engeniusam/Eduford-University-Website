@@ -82,7 +82,7 @@ margin-top:10px;
   cursor:pointer;
   transition:1s;
 }
-section#header i.fu{
+section#header span.fu{
   visibility:hidden;
 }
 @media (max-width:700px){
@@ -109,16 +109,16 @@ ul{
   z-index:2;
   padding-top:70px;
 }
-section#header i.fu{
+section#header span.fu{
   visibility:visible;
   display:block;
 }
-section#header .fu-times{
+section#header span.fu-times{
   margin:10px auto;
   padding-left:10px;
   border-bottom:1px solid #fff;
 }
-section#header i.fu-bars{
+section#header .fu-bars{
   visibility:visible;
   display:block;
   color:#fff;
@@ -419,7 +419,7 @@ div.wrapper7 p{
     background-size: cover;
     position:relative;
    }
-   section#sub-header i.fu{
+   section#sub-header span.fu{
     visibility:hidden;
   }
    section#sub-header h1{
@@ -437,16 +437,16 @@ div.wrapper7 p{
     section#sub-header h1{
       font-size:25px;
     }
-    section#sub-header i.fu{
+    section#sub-header span.fu{
       visibility:visible;
       display:block;
     }
-    section#sub-header .fu-times{
+    section#sub-header span.fu-times{
       margin:10px auto;
       padding-left:10px;
       border-bottom:1px solid #fff;
     }
-    section#sub-header i.fu-bars{
+    section#sub-header .fu-bars{
       visibility:visible;
       display:block;
       color:#fff;
