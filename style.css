@@ -82,9 +82,10 @@ margin-top:10px;
   cursor:pointer;
   transition:1s;
 }
-section#header span.fu{
+section#header span.md-light,span.md-24{
   visibility:hidden;
-  color:#fff;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
 }
 @media (max-width:700px){
   div.intro p{
@@ -110,11 +111,13 @@ ul{
   z-index:2;
   padding-top:70px;
 }
-section#header span.fu{
+section#header span.md-light,span.md-24{
   visibility:visible;
+  font-size: 24px;
   display:block;
-  color:#fff;
+  color: rgba(255, 255, 255, 1);
 }
+
 section#header span.fu-times{
   margin:10px auto;
   padding-left:10px;
@@ -425,7 +428,7 @@ div.wrapper7 p{
     background-size: cover;
     position:relative;
    }
-   section#sub-header span.fu{
+   section#sub-header span.material-icons{
     visibility:hidden;
   }
    section#sub-header h1{
@@ -443,7 +446,7 @@ div.wrapper7 p{
     section#sub-header h1{
       font-size:25px;
     }
-    section#sub-header span.fu{
+    section#sub-header span.material-icons{
       visibility:visible;
       display:block;
     }
