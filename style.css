@@ -84,6 +84,7 @@ margin-top:10px;
 }
 section#header span.fu{
   visibility:hidden;
+  color:#fff;
 }
 @media (max-width:700px){
   div.intro p{
@@ -112,6 +113,7 @@ ul{
 section#header span.fu{
   visibility:visible;
   display:block;
+  color:#fff;
 }
 section#header span.fu-times{
   margin:10px auto;
@@ -308,6 +310,7 @@ div.test_col{
   text-align:left;
   margin-bottom:5%;
 }
+
 div.test_col + div.test_col{
   margin-left:10px
 }
@@ -322,6 +325,9 @@ div.test_col img{
   }
   div.test_col + div.test_col{
     margin-left:0;
+  }
+  div.test_col h3{
+    font-size: 25px;
   }
 }
 /*------Call To Action Section----------*/
