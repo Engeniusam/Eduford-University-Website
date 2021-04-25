@@ -8,7 +8,6 @@
 }
 body{
   scroll-behavior: smooth;
-  z-index:-1;
 }
 section#header{
   width:100%;
