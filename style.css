@@ -82,7 +82,7 @@ margin-top:10px;
   cursor:pointer;
   transition:1s;
 }
-section#header span.md-light,span.md-24{
+section#header i.fas{
   visibility:hidden;
   font-size: 24px;
   color: rgba(255, 255, 255, 1);
@@ -111,19 +111,19 @@ ul{
   z-index:2;
   padding-top:70px;
 }
-section#header span.md-light,span.md-24{
+section#header i.fas{
   visibility:visible;
   font-size: 24px;
   display:block;
   color: rgba(255, 255, 255, 1);
 }
 
-section#header span.fu-times{
+section#header i.fa-times{
   margin:10px auto;
   padding-left:10px;
   border-bottom:1px solid #fff;
 }
-section#header .fu-bars{
+section#header i.fa-bars{
   visibility:visible;
   display:block;
   color:#fff;
@@ -428,7 +428,7 @@ div.wrapper7 p{
     background-size: cover;
     position:relative;
    }
-   section#sub-header span.material-icons{
+   section#sub-header i.fa-bars{
     visibility:hidden;
   }
    section#sub-header h1{
@@ -446,16 +446,16 @@ div.wrapper7 p{
     section#sub-header h1{
       font-size:25px;
     }
-    section#sub-header span.material-icons{
+    section#sub-header i.fas{
       visibility:visible;
       display:block;
     }
-    section#sub-header span.fu-times{
+    section#sub-header i.fa-times{
       margin:10px auto;
       padding-left:10px;
       border-bottom:1px solid #fff;
     }
-    section#sub-header .fu-bars{
+    section#sub-header i.fa-bars{
       visibility:visible;
       display:block;
       color:#fff;
