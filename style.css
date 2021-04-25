@@ -6,6 +6,9 @@
   text-decoration:none;
   font-family: 'Poppins', sans-serif;
 }
+body{
+  scroll-behavior: smooth;
+}
 section#header{
   width:100%;
   min-height:100vh;
@@ -82,7 +85,7 @@ margin-top:10px;
   cursor:pointer;
   transition:1s;
 }
-section#header i.fas{
+section#header i.bx{
   visibility:hidden;
   font-size: 24px;
   color: rgba(255, 255, 255, 1);
@@ -111,19 +114,19 @@ ul{
   z-index:2;
   padding-top:70px;
 }
-section#header i.fas{
+section#header i.bx{
   visibility:visible;
   font-size: 24px;
   display:block;
   color: rgba(255, 255, 255, 1);
 }
 
-section#header i.fa-times{
+section#header i.bx-window-close{
   margin:10px auto;
   padding-left:10px;
   border-bottom:1px solid #fff;
 }
-section#header i.fa-bars{
+section#header i.bx-menu{
   visibility:visible;
   display:block;
   color:#fff;
@@ -428,7 +431,7 @@ div.wrapper7 p{
     background-size: cover;
     position:relative;
    }
-   section#sub-header i.fa-bars{
+   section#sub-header i.bx-menu{
     visibility:hidden;
   }
    section#sub-header h1{
@@ -446,16 +449,16 @@ div.wrapper7 p{
     section#sub-header h1{
       font-size:25px;
     }
-    section#sub-header i.fas{
+    section#sub-header i.bx{
       visibility:visible;
       display:block;
     }
-    section#sub-header i.fa-times{
+    section#sub-header i.bx-window-close{
       margin:10px auto;
       padding-left:10px;
       border-bottom:1px solid #fff;
     }
-    section#sub-header i.fa-bars{
+    section#sub-header i.bx-menu{
       visibility:visible;
       display:block;
       color:#fff;
